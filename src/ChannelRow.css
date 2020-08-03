@@ -1,0 +1,27 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+}
+
+.channelRow__image > img {
+  width: 138px;
+  height: 138px;
+  margin: 10px 10vw;
+}
+
+.channelRow__info {
+  display: flex;
+  flex-direction: column;
+}
+.channelRow__info > h4 {
+  margin-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.channelRow__info > p {
+  color: grey;
+  font-size: small;
+  padding: 5px;
+}

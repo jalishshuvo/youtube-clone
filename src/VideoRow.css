@@ -1,0 +1,31 @@
+.videoRow {
+  display: flex;
+  padding: 20px;
+  width: 90%;
+}
+.videoRow__thumbnail > img {
+  margin-right: 20px;
+  width: 246px;
+  height: 138px;
+  object-fit: contain;
+}
+.videoRow__info {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: small;
+  padding: 5px;
+}
+
+.videoRow__channellogo {
+  display: flex;
+  margin: 20px 0px;
+}
+.videoRow__channellogo > p {
+  margin: 0 10px;
+}
+.videoRow__channellogo > img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+}
